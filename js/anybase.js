@@ -11,11 +11,11 @@
     return _results;
   })();
 
-  for (i = _i = 64; _i <= 90; i = ++_i) {
+  for (i = _i = 65; _i <= 90; i = ++_i) {
     chars.push(String.fromCharCode(i));
   }
 
-  for (i = _j = 96; _j <= 122; i = ++_j) {
+  for (i = _j = 97; _j <= 122; i = ++_j) {
     chars.push(String.fromCharCode(i));
   }
 

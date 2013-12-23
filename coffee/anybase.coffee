@@ -1,7 +1,7 @@
 
 chars = (String(i) for i in [0 ... 10])
-chars.push(String.fromCharCode(i)) for i in [64 .. 90]
-chars.push(String.fromCharCode(i)) for i in [96 .. 122]
+chars.push(String.fromCharCode(i)) for i in [65 .. 90]
+chars.push(String.fromCharCode(i)) for i in [97 .. 122]
 
 map = {}
 map[char] = i for char, i in chars
