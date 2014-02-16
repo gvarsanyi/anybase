@@ -1,10 +1,13 @@
 {
   "name": "anybase",
-  "version": "0.1.1",
-  "description": "convert from virtually any to any other numeric base",
+  "version": "0.2.0",
+  "description": "convert from and to numeric bases from base 2 to base 62",
   "main": "js/anybase.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "anybase": "./js/anybase-cli.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,16 @@
     "base",
     "convert",
     "int",
-    "integer"
+    "integer",
+    "decimal",
+    "bin",
+    "binary",
+    "hex",
+    "hexa",
+    "hexadecimal",
+    "oct",
+    "octa",
+    "octal"
   ],
   "author": "Greg Varsanyi",
   "license": "GNU GPLv2",
