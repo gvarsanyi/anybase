@@ -16,7 +16,7 @@ node_module to convert virtually from any to any other numeric base
 - a..z to 36..61
 
 # Use with your node.js project
-## On the terminal
+## Install
     cd /path/to/your/project
     npm install anybase --save
 ## In your code
@@ -40,8 +40,10 @@ node_module to convert virtually from any to any other numeric base
     // prints 01
     console.log(anybase(target_base, original_number, original_base, minimum_digits, maximum_digits));
 
-# Install globally
+# Use on your terminal
+## Install globally
     sudo npm install -g anybase
+## Convert numbers on your terminal
     anybase 2 11 8 # prints 1001
     anybase 2 11 8 8 # prints 00001001
     anybase 2 11 2 2 # prints 01
