@@ -65,4 +65,5 @@ module.exports = (base, n, orig_base=10, digits_min=0, digits_max=0) ->
   if digits_max and String(n).length > digits_max
     n = String(n).substr 0, digits_max
 
+  return '0' if n is ''
   n

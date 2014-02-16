@@ -104,6 +104,9 @@
     if (digits_max && String(n).length > digits_max) {
       n = String(n).substr(0, digits_max);
     }
+    if (n === '') {
+      return '0';
+    }
     return n;
   };
 

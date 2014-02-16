@@ -1,6 +1,6 @@
 {
   "name": "anybase",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "convert from and to numeric bases from base 2 to base 62",
   "main": "js/anybase.js",
   "scripts": {
