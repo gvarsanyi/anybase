@@ -1,24 +1,29 @@
 {
   "name": "anybase",
-  "version": "0.2.2",
-  "description": "convert from and to numeric bases from base 2 to base 62",
-  "main": "js/anybase.js",
+  "version": "1.0.0",
+  "description": "convert from and to numeric bases from base 1 to base 9,007,199,254,740,991 (= 2 ^ 53 - 1)",
+  "main": "javascript/anybase.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./compile.sh && mocha spec --compilers coffee:coffee-script/register"
   },
   "bin": {
-    "anybase": "./js/anybase-cli.js"
+    "anybase": "./javascript/anybase-cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/gvarsanyi/anybase.git"
   },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "coffee-script": "~1.9.3",
+    "mocha": "~2.3.0"
+  },
   "keywords": [
     "any",
-    "numeric",
-    "number",
     "base",
+    "number",
     "convert",
+    "numeric",
     "int",
     "integer",
     "decimal",
@@ -32,7 +37,7 @@
     "octal"
   ],
   "author": "Greg Varsanyi",
-  "license": "GNU GPLv2",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gvarsanyi/anybase/issues"
   },
